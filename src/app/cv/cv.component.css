@@ -1,0 +1,52 @@
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+.right-bar {
+  top: 4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  order: 2;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: .875rem;
+}
+
+.section-nav {
+  padding-left: 0;
+  border-left: 1px solid #eee;
+}
+
+.toc-entry a {
+  display: block;
+  padding: .125rem 1.5rem;
+  color: #99979c;
+}
+
+.toc-entry a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.potrait {
+  width: 100%;
+}
+
+.blog-header {
+  padding: 50px;
+  border-bottom: .05rem solid #eee;
+}
+
+.blog-sidebar {
+  padding: 30px 0px 0px 20px;
+}
+
+.card {
+  width: 45%;
+  margin: 10px;
+}

@@ -1,0 +1,128 @@
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar" style="padding-top: 20px">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#siw" data-toggle="tab">
+              Stock Information Website
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tes" data-toggle="tab">
+              Travel and Entertainment Search Website
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="siw" role="tabpanel" aria-labelledby="home-tab">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1>Stock Information Website</h1>
+          </div>
+          <h3>Description</h3>
+          <div class="indent">
+            The website is a stock search website. After you give the ticker of a stock, it will show you most of the
+            info about the stock, includes current price, last price, indicator charts, historical charts and news<br>
+            <div class="indent">
+              1. The top part of the web is the searching board. It implements the functionality of autocomplete when
+              you are typing. When you click the "get quote" button, it will retrieve the info from the backend. If you
+              click on the "clear" button, it will clear all the current info.
+              <br>
+              2. The bottom part has two panel. The left panel is the favorite board, which shows all your favorite
+              stocks. These favorite stocks are stored in the local storage. While the right panel is the info board. It
+              has 3 tabs: current stock, historical stock and news.
+            </div>
+            The wesite used the following technologies
+            <div class="indent">
+              1. Angular 4 as the front-end framework
+              <br>
+              2. Bootstrap as the CSS framework
+              <br>
+              3. Node.js as the back-end language
+              <br>
+              4. Used packages of back-end: express, body-parser, xml2js, moment and Angular Material
+              <br>
+              5. Used APIs of Alpha Vantage and Facebook
+              <br>
+              6. Deployed to AWS
+            </div>
+            <br>
+
+          </div>
+          <h3>Demo Video</h3>
+          <div class="indent">
+            <br>
+            <div class="embed-responsive embed-responsive-16by9" style="width: 70%">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mmd_ZYf0c8o"
+                      allowfullscreen></iframe>
+            </div>
+          </div>
+          <br>
+          <h3>Website Address</h3>
+          <div class="indent">
+            <a target="_blank" href="http://zcstock.us-east-1.elasticbeanstalk.com/">Click me</a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tes" role="tabpanel" aria-labelledby="contact-tab">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+            <h1>Travel and Entertainment Search Website</h1>
+          </div>
+          <h3>Description</h3>
+          <div class="indent">
+            The website is a place search website. After you give the information about the name, place category and
+            distance from a certain loction, it will shows a list of results. You can go into details of these places,
+            and check the information, photos, maps and reviews about the place.
+            <div class="indent">
+              1. The top part of the web is the searching board. It implements the functionality of autocomplete when
+              you are typing. When you click the "Search" button, it will retrieve the info from the backend. If you
+              click on the "clear" button, it will clear all the current results.
+              <br>
+              2. The bottom part can be switched between result tab and favorite tab:
+              <div class="indent">
+                i.In the result tab, you can see the results coresponding to the information you given in the search form. When you click the right arrow of each row, you can check the detail information about the place.
+                <br>ii.The detail information part contains 4 different tabs: information tab, photos tab, map tab and reviews tab where you can see the different detail information of the place.
+              </div>
+            </div>
+            The wesite used the following technologies
+            <div class="indent">
+              1. React.js as the front-end framework
+              <br>
+              2. Bootstrap as the CSS framework
+              <br>
+              3. Node.js as the back-end language
+              <br>
+              4. Used packages: express, body-parser
+              <br>
+              5. Used Google map API, including Map API, Places API and Direction API
+              <br>
+              6. Used Twitter Web Intents and Yelp API
+              <br>
+              7. Deployed to AWS
+            </div>
+            <br>
+
+          </div>
+          <h3>Demo Video</h3>
+          <div class="indent">
+            <br>
+            <div class="embed-responsive embed-responsive-16by9" style="width: 70%">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AetzdOkabpo"
+                      allowfullscreen></iframe>
+            </div>
+          </div>
+          <br>
+          <h3>Website Address</h3>
+          <div class="indent">
+            <a target="_blank" href="http://zctae.us-east-1.elasticbeanstalk.com/">Click me</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
